@@ -1,0 +1,29 @@
+{
+  "name": "twitter-follower",
+  "version": "1.0.0",
+  "description": "Twitter bot that follows users based on given criteria",
+  "main": "index.js",
+  "author": "Calin Ortan",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "eslint-plugin-react": "^7.18.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^2.0.2",
+    "passport": "^0.4.1",
+    "passport-twitter": "^1.0.4",
+    "twit": "^2.2.11"
+  },
+  "scripts": {
+    "start": "nodemon index.js --ignore client"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-react": "^7.18.0"
+  }
+}
